@@ -1,0 +1,29 @@
+.green-container {
+  background-color: var(--green);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 73px;
+  padding-bottom: 56px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.press-start-container {
+  margin-top: 60px;
+}
+
+.text-goldman-typewriter {
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: var(--whiteText);
+}
