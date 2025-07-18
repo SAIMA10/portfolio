@@ -79,7 +79,7 @@
 
 .blue-background-left {
   background-color: var(--darkBlue);
-  height: 48.7%;
+  height: 40%;
   width: 50%;
   position: absolute;
   left: 0;
@@ -108,11 +108,28 @@
   text-align: center;
 }
 
+.blue-content-wide {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .small-ellipse {
   height: 15px;
   width: 15px;
   border-radius: 10px;
   background-color: var(--whiteText);
+}
+
+.small-ellipse-yellow {
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  background-color: var(--yellow);
 }
 
 .skills-container {

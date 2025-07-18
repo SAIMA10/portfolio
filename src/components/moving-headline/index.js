@@ -47,7 +47,7 @@ const MovingHeadline = ({
       x: -textWidth,
       duration: duration,
       ease: "linear",
-      repeat: -1,
+      repeat: -10,
     });
   }, [displayText]);
 

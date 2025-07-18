@@ -11,6 +11,8 @@ import { motion } from "motion/react";
 import Education from "../education";
 import Experience from "../experience";
 import Skills from "../skills";
+import Projects from "../projects";
+import Achievements from "../achievements";
 
 const Intro = () => {
   const [knowMoreClick, setKnowMoreClick] = useState(false);
@@ -146,6 +148,12 @@ const Intro = () => {
       </div>
       <div className="container-background">
         <Skills />
+      </div>
+      <div className="container-background">
+        <Projects />
+      </div>
+      <div className="container-background">
+        <Achievements />
       </div>
     </>
   );
