@@ -3,7 +3,8 @@ import { colors } from "../../constants";
 import "../typography/styles.css";
 
 /* 
-variants: goldman, press-start, hammersmith, jersey 25, montserrat, montserrat-semibold
+variants: goldman, press-start, hammersmith, jersey 25, montserrat, montserrat-semibold, heading-now2, heading-now1
+<div>Icons made from <a href="https://www.onlinewebfonts.com/icon">svg icons</a>is licensed by CC BY 4.0</div>
 */
 
 const Text = ({

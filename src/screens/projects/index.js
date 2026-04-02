@@ -34,11 +34,11 @@ const Projects = () => {
               <Text variant="montserrat-semibold" fontSize={18} color="yellow">
                 Flutter
               </Text>
-              <div className="small-ellipse-yellow-yellow"></div>
+              <div className="small-ellipse-yellow"></div>
               <Text variant="montserrat-semibold" fontSize={18} color="yellow">
                 NLP
               </Text>
-              <div className="small-ellipse-yellow-yellow"></div>
+              <div className="small-ellipse-yellow"></div>
               <Text variant="montserrat-semibold" fontSize={18} color="yellow">
                 Python
               </Text>
@@ -51,15 +51,6 @@ const Projects = () => {
       </div>
 
       <div className="blue-background-left">
-        <div className="blue-place-text-left">
-          <Text
-            variant="montserrat-bold-text"
-            fontSize={36}
-            color="darkBlueText"
-          >
-            PUNE
-          </Text>
-        </div>
         <div className="blue-content">
           <Text variant="montserrat-semibold" fontSize={36} color="whiteText">
             Expense Tracker Application

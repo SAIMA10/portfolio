@@ -13,6 +13,12 @@ import Experience from "../experience";
 import Skills from "../skills";
 import Projects from "../projects";
 import Achievements from "../achievements";
+import arrowDownAnimation from "../../assets/arrow_down_animation.json";
+import cameraCapture from "../../assets/camera capture.json";
+import line from "../../assets/line.json";
+import Lottie from "lottie-react";
+import PixelSnow from "../../components/pixel-snow";
+import { colors } from "../../constants";
 
 const Intro = () => {
   const [knowMoreClick, setKnowMoreClick] = useState(false);
@@ -23,6 +29,56 @@ const Intro = () => {
         <MovingHeadline displayText="PORTFOLIO" />
         <div className="cream-background-left"></div>
         <div className="cream-background-right"></div>
+        <motion.div className="orange-place-text-right">
+          <Lottie
+            animationData={arrowDownAnimation}
+            loop={true}
+            autoplay={true}
+            style={{ width: 150, height: 150 }}
+          />
+        </motion.div>
+        <motion.div
+          className="orange-place-text-left-bottom"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "10px",
+            cursor: "pointer",
+          }}
+        >
+          <Lottie
+            animationData={cameraCapture}
+            loop={true}
+            autoplay={true}
+            style={{ width: 50, height: 50 }}
+          />
+          <motion.div
+            className="container"
+            onClick={() => {
+              window.open(
+                "https://www.instagram.com/sam_ukiyo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+                "_blank",
+              );
+            }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { duration: 2 } }}
+          >
+            <motion.div
+              className="container"
+              animate={{ y: ["0%", "-10%", "0%"] }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+            >
+              <Text variant="press-start" fontSize={13}>
+                Click Here!
+              </Text>
+            </motion.div>
+          </motion.div>
+        </motion.div>
         <div className="green-background-center">
           {!knowMoreClick ? (
             <div className="spline-container">
@@ -31,20 +87,12 @@ const Intro = () => {
               </div>
               <div className="info-box">
                 <Text
-                  variant="jersey"
-                  fontSize={62}
+                  variant="inter"
+                  fontSize={56}
                   color="darkBlue"
                   className="title-text"
                 >
                   SAIMA ANSARI
-                </Text>
-                <Text
-                  variant="jersey"
-                  fontSize={29}
-                  color="darkBlue"
-                  className="subtitle-text"
-                >
-                  Software Developer
                 </Text>
                 <div className="social-media-container">
                   <a

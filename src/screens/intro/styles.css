@@ -33,6 +33,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 10px solid var(--darkGreenText);
 }
 
 .spline-container {

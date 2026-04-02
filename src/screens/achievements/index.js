@@ -30,6 +30,12 @@ const Achievements = () => {
         </div>
         <motion.div
           className="container"
+          onClick={() => {
+            window.open(
+              "https://ieeexplore.ieee.org/document/10269950",
+              "_blank",
+            );
+          }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, transition: { duration: 2 } }}
         >
@@ -43,7 +49,7 @@ const Achievements = () => {
             }}
           >
             <Text variant="press-start" className="press-start-container">
-              click here to read!
+              Click here to read!
             </Text>
           </motion.div>
         </motion.div>
@@ -65,7 +71,6 @@ const Achievements = () => {
           <Text variant="montserrat-semibold" fontSize={25} color="yellow">
             Served as Design and Technical Head
             <Text variant="montserrat-semibold" fontSize={25}>
-              {" "}
               (PICT MUN)
             </Text>
           </Text>
@@ -85,6 +90,9 @@ const Achievements = () => {
           </Text>
           <motion.div
             className="container"
+            onClick={() => {
+              window.open("https://www.behance.net/saimaansari2", "_blank");
+            }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 2 } }}
           >

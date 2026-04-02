@@ -42,7 +42,6 @@
   letter-spacing: 50px;
 }
 
-
 .text-montserrat-bold-text {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -53,4 +52,17 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 550;
   font-style: normal;
+}
+
+.text-inter {
+  font-family: "Inter", sans-serif;
+  font-weight: 600; /* Semi Bold */
+  font-size: 80px;
+  line-height: 1; /* closest to Auto for display text */
+  letter-spacing: -0.07em; /* -7% */
+}
+
+.text-inter-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: 900; /* Semi Bold */
 }

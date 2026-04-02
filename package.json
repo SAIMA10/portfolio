@@ -5,6 +5,7 @@
   "dependencies": {
     "@react-navigation/native": "^7.1.13",
     "@splinetool/react-spline": "^4.0.0",
+    "@splinetool/runtime": "^1.12.73",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
@@ -17,6 +18,7 @@
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.2",
     "react-scripts": "5.0.1",
+    "three": "^0.183.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
